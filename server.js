@@ -10,5 +10,5 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(dirName, '/frontend/build/index.html'));
 });
 app.listen(5000, () => {
-  console.log('Server is running');
+  console.log('Server is running on 5000');
 });
